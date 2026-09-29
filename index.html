@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sohan's Academic Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  :root{
+    --accent:#7c4dff;
+    --bg:#141024;
+    --card-bg:rgba(255,255,255,0.03);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:'Segoe UI',Arial,sans-serif;
+    background:var(--bg);
+    color:#fff;
+    min-height:100vh;
+  }
+  nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:16px 40px;
+    background:#0d0a1a;
+    border-bottom:1px solid rgba(255,255,255,0.08);
+  }
+  .logo{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-size:22px;
+    font-weight:700;
+  }
+  .logo span{color:var(--accent);}
+  nav ul{
+    list-style:none;
+    display:flex;
+    gap:32px;
+    margin:0;
+    padding:0;
+  }
+  nav a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+    font-size:15px;
+  }
+  nav a:hover{color:var(--accent);}
+  .hero{
+    text-align:center;
+    padding:60px 20px 30px;
+  }
+  .hero h1{
+    font-size:32px;
+    margin-bottom:8px;
+  }
+  .hero p{
+    color:#b8b3cf;
+    max-width:520px;
+    margin:0 auto;
+  }
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+    gap:20px;
+    max-width:1100px;
+    margin:40px auto 80px;
+    padding:0 40px;
+  }
+  .card{
+    background:var(--card-bg);
+    border:1px solid var(--accent);
+    border-radius:10px;
+    padding:26px 20px;
+    text-align:center;
+    font-weight:700;
+    font-size:17px;
+    color:#fff;
+    text-decoration:none;
+    transition:transform .15s, background .15s;
+  }
+  .card:hover{
+    background:rgba(124,77,255,0.15);
+    transform:translateY(-3px);
+  }
+  footer{
+    text-align:center;
+    padding:20px;
+    color:#736e8c;
+    font-size:13px;
+    border-top:1px solid rgba(255,255,255,0.08);
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">📘<span>Sohan's</span> Academic Hub</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="docs.html#/">Notes</a></li>
+    <li><a href="docs.html#/lab-reports/example-lab-report">Lab Reports</a></li>
+    <li><a href="docs.html#/books/example-book">Books</a></li>
+    <li><a href="mailto:you@example.com">Contact</a></li>
+  </ul>
+</nav>
+
+<div class="hero">
+  <h1>Fabric Engineering Study Hub</h1>
+  <p>Notes, lab reports, and reference books — BUTEX, Textile Engineering Management</p>
+</div>
+
+<div class="grid">
+  <a class="card" href="docs.html#/notes/fabric-manufacturing-ii">Fabric Manufacturing II</a>
+  <a class="card" href="docs.html#/notes/yarn-manufacturing-ii">Yarn Manufacturing II</a>
+  <a class="card" href="docs.html#/notes/fabric-structure-design">Fabric Structure & Design</a>
+  <a class="card" href="docs.html#/notes/knitting-technology">Knitting Technology</a>
+  <a class="card" href="docs.html#/notes/entrepreneurship">Entrepreneurship & Project Dev.</a>
+  <a class="card" href="docs.html#/notes/financial-management">Financial Management</a>
+  <a class="card" href="docs.html#/notes/mis">MIS</a>
+  <a class="card" href="docs.html#/lab-reports/example-lab-report">Lab Reports</a>
+  <a class="card" href="docs.html#/books/example-book">Reference Books</a>
+</div>
+
+<footer>Sohan · BUTEX · Textile Engineering Management</footer>
+
+</body>
+</html>

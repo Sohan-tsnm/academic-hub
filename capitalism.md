@@ -1,8 +1,9 @@
-# [Book Title]
+# Capitalism: Class, Weber and Marx
 
-**Author:**
-**Subject relevance:**
+**Author:** Class Notes (BUTEX)
 
-Short note on why this book is useful / what chapters matter for your course.
+**Subject relevance:** Sociology / Textile Engineering Management
 
-[Open PDF](example-book.pdf)
+Short notes on the three characteristics of capitalism, economic and social elements, Marx vs Weber's classes, Protestant Ethics and the Spirit of Capitalism, and the Weber-Marx debate. Useful for exam revision.
+
+[Open PDF](capitalism.pdf)
